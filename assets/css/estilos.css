@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 /* Hero Section */
@@ -13,27 +12,21 @@
   background-size: cover;
   max-height: 80vh;
   background-position: center;
-
 }
-
 
 .h1custom {
   text-shadow: 3px 3px #000;
   font-size: 4em;
-
 }
 
 .buttomcustom {
   text-align: center;
   margin-top: 500px;
-
 }
 
 .buttomcustom button {
   margin: 10px;
 }
-
-
 
 .buttomcustom a {
   text-decoration: none;
@@ -53,7 +46,6 @@
   font-weight: 900;
   text-shadow: 2px 2px #000;
 }
-
 
 /* Mis trabajos */
 
@@ -75,29 +67,23 @@
   color: #fff;
 }
 
-
 @media screen and (max-height: 910px) {
-
   .buttomcustom {
     margin-top: 400px;
   }
 }
 
 @media screen and (max-height: 790px) {
-
   .buttomcustom {
     margin-top: 300px;
   }
 }
 
-
 @media screen and (max-height: 670px) {
-
   .buttomcustom {
     margin-top: 250px;
   }
 }
-
 
 @media screen and (max-width: 1280px) {
   #Hero-Section {
@@ -113,7 +99,6 @@
   .buttomcustom {
     margin-top: 100px;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -129,12 +114,13 @@
   .navbar-brand {
     width: 100px;
   }
+
   .buttomcustom {
     margin-top: 70px;
   }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   #Hero-Section {
     max-height: 30vh;
     min-height: 30vh;
@@ -146,13 +132,9 @@
 
   .container-custom {
     max-width: 576px;
-
   }
- 
-.buttomcustom {
-  opacity: 0;
-}
 
-
-
+  .buttomcustom {
+    opacity: 0;
+  }
 }
