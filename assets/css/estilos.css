@@ -75,7 +75,31 @@
   color: #fff;
 }
 
-@media (max-width: 1280px) {
+
+@media screen and (max-height: 910px) {
+
+  .buttomcustom {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-height: 790px) {
+
+  .buttomcustom {
+    margin-top: 300px;
+  }
+}
+
+
+@media screen and (max-height: 670px) {
+
+  .buttomcustom {
+    margin-top: 250px;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
   #Hero-Section {
     max-height: 50vh;
     min-height: 50vh;
@@ -83,23 +107,16 @@
 
   .h1custom {
     font-size: 2.2em;
+    margin-top: 1px !important;
   }
 
   .buttomcustom {
-    opacity: 0;
+    margin-top: 100px;
   }
 
 }
 
-@media (max-height: 800px) {
-
-  .buttomcustom {
-    opacity: 0;
-  }
-}
-
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #Hero-Section {
     max-height: 40vh;
     min-height: 40vh;
@@ -112,9 +129,12 @@
   .navbar-brand {
     width: 100px;
   }
+  .buttomcustom {
+    margin-top: 70px;
+  }
 }
 
-@media (max-width:576px) {
+@media screen and (max-width:576px) {
   #Hero-Section {
     max-height: 30vh;
     min-height: 30vh;
@@ -128,6 +148,10 @@
     max-width: 576px;
 
   }
+ 
+.buttomcustom {
+  opacity: 0;
+}
 
 
 
