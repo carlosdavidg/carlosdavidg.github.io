@@ -71,6 +71,9 @@
   color: #373a3c;
 }
 
+.nav-items a {
+  color: #fff;
+}
 
 @media (max-width: 1280px) {
   #Hero-Section {
@@ -87,6 +90,14 @@
   }
 
 }
+
+@media (max-height: 800px) {
+
+  .buttomcustom {
+    opacity: 0;
+  }
+}
+
 
 @media (max-width: 768px) {
   #Hero-Section {
